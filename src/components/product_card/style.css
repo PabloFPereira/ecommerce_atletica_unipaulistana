@@ -1,0 +1,38 @@
+.product-card {
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    background-color: #111F2B;
+    color: white;
+}
+
+.product-img {
+    width: 200px;
+    height: 200px;
+}
+
+.product-title {
+    align-self: flex-start;
+    margin-top: 40px;
+}
+
+.product-description {
+    align-self: flex-start;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.product-price {
+    align-self: flex-start;
+}
